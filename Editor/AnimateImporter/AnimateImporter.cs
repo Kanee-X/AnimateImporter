@@ -1,5 +1,3 @@
-using Codice.Utils;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEditor.U2D.Sprites;
