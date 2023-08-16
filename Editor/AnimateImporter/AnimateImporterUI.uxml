@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:Label tabindex="-1" text="&lt;b&gt;Solar&apos;s Animate Importer&lt;/b&gt;&#10;&lt;size=12&gt;Automatic parser for Animate SpriteSheet XML" display-tooltip-when-elided="true" name="Title" style="align-items: center; align-self: center; font-size: 24px; -unity-text-align: upper-center; margin-top: 16px;" />
+    <uie:ObjectField label="SpriteSheet Image" type="UnityEngine.Texture2D, UnityEngine.CoreModule" tooltip="The SpriteSheet image to split when importing from SpriteSheet Data." name="SpriteSheetImage" style="margin-top: 16px;" />
+    <uie:ObjectField label="SpriteSheet Data" type="UnityEngine.TextAsset, UnityEngine.CoreModule" tooltip="The XML file containing the SpriteSheet data, it should usually have the exact same name as the SpriteSheet Image." name="SpriteSheetData" style="margin-top: 4px;" />
+    <ui:Toggle label="Overwrite Max Size" value="true" text=" &lt;color=red&gt;(RECOMMENDED ON!!!)&lt;/color&gt;" tooltip="Overwrites the Texture2D&apos;s &quot;Max Size&quot; value, which will return the image&apos;s true dimensions, which should fix incorrectly placed rects. Disabling this &lt;b&gt;WILL&lt;/b&gt; result in unintended operation, in most circumstances." name="OverwriteMaxTexSize" style="margin-top: 16px;" />
+    <ui:Button text="Import Sprites" display-tooltip-when-elided="true" focusable="true" name="ImportSpritesButton" style="padding-top: 12px; padding-bottom: 12px; margin-top: 4px;" />
+</ui:UXML>
